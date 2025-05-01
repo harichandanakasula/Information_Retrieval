@@ -1,0 +1,614 @@
+python3 main.py spanbert  AIzaSyBpks-9z
+riolxJeAIYWhIN9bkRxwBSBCHE 264b06b728e3947a7 AIzaSyBO5WY7_4iXLj4HXyBTTRKM2Kc_ZBdrcvk  2  0.7  "
+bill gates microsoft" 10
+____
+Parameters:
+Client key      = AIzaSyBpks-9zriolxJeAIYWhIN9bkRxwBSBCHE
+Engine key      = 264b06b728e3947a7
+Gemini key      = AIzaSyBO5WY7_4iXLj4HXyBTTRKM2Kc_ZBdrcvk
+Method          = spanbert
+Relation        = Work_For
+Threshold       = 0.7
+Query           = bill gates microsoft
+# of Tuples     = 10
+
+=========== Using SpanBERT for Relation Extraction ===========
+
+=========== Using SpanBERT for Relation Extraction ===========
+Loading pre-trained spanBERT from ./pretrained_spanbert
+
+Loading pre-trained spanBERT from ./pretrained_spanbert
+
+Loading necessary libraries; This should take a minute or so ...)
+
+=========== Iteration: 0 - Query: bill gates microsoft ===========
+
+URL ( 1 / 10): https://en.wikipedia.org/wiki/Bill_Gates
+        Fetching text from url ...
+        Trimming webpage content from 146248 to 10000 characters
+        Webpage length (num characters): 10000
+        # Sentences extracted = 42
+        Extracted 42 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Annotating the webpage using spacy...
+        Extracted 42 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+        Processed 5 / 42 sentences
+        Processed 10 / 42 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Bill', 'GatesGates', 'in', '2024BornWilliam', 'Henry', 'Gates', 'III', '(', '1955', '-', '10', '-', '28', ')', 'October', '28', ',', '1955', '(', 'age', '69)Seattle', ',', 'Washington', ',', 'U.S.EducationHarvard', 'University', '(', 'dropped', 'out)OccupationsBusinessmanphilanthropistcomputer', 'programmerwriterYears', 'active1972', '–', 'presentKnown', 'for', '\n', 'Pioneer', 'of', 'the', 'personal', 'computer', 'revolution', 'with', 'Paul', 'Allen', '\n', 'Co', '-', 'founding', 'of', 'Microsoft', 'and', 'Gates', 'Foundation', '\n', 'Title', '\n', 'See', 'list', 'Chair', 'of', 'the', 'Gates', 'Foundation', 'Chairman', 'and', 'founder', 'of', 'Cascade', 'Investment', 'Chairman', 'and', 'founder', 'of', 'Branded', 'Entertainment', 'Network', 'Chairman', 'and', 'co', '-', 'founder', 'of', 'TerraPower', 'Founder', 'of', 'Breakthrough', 'Energy', 'Founder', 'of', 'Gates', 'Ventures', 'Technology', 'advisor', 'of', 'Microsoft', '\n', 'Spouse', '\n', 'Melinda', 'French', '\n', '\u200b', '\u200b(m', '.', '1994', ';', 'div', '.']
+                Output Confidence: 0.72545743 ; Subject: Henry Gates III ; Object: U.S.EducationHarvard University
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Bill', 'GatesGates', 'in', '2024BornWilliam', 'Henry', 'Gates', 'III', '(', '1955', '-', '10', '-', '28', ')', 'October', '28', ',', '1955', '(', 'age', '69)Seattle', ',', 'Washington', ',', 'U.S.EducationHarvard', 'University', '(', 'dropped', 'out)OccupationsBusinessmanphilanthropistcomputer', 'programmerwriterYears', 'active1972', '–', 'presentKnown', 'for', '\n', 'Pioneer', 'of', 'the', 'personal', 'computer', 'revolution', 'with', 'Paul', 'Allen', '\n', 'Co', '-', 'founding', 'of', 'Microsoft', 'and', 'Gates', 'Foundation', '\n', 'Title', '\n', 'See', 'list', 'Chair', 'of', 'the', 'Gates', 'Foundation', 'Chairman', 'and', 'founder', 'of', 'Cascade', 'Investment', 'Chairman', 'and', 'founder', 'of', 'Branded', 'Entertainment', 'Network', 'Chairman', 'and', 'co', '-', 'founder', 'of', 'TerraPower', 'Founder', 'of', 'Breakthrough', 'Energy', 'Founder', 'of', 'Gates', 'Ventures', 'Technology', 'advisor', 'of', 'Microsoft', '\n', 'Spouse', '\n', 'Melinda', 'French', '\n', '\u200b', '\u200b(m', '.', '1994', ';', 'div', '.']
+                Output Confidence: 0.72545743 ; Subject: Henry Gates III ; Object: U.S.EducationHarvard University
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+        Processed 15 / 42 sentences
+        Processed 20 / 42 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'stepped', 'down', 'as', 'chairman', 'of', 'the', 'board', 'of', 'directors', 'in', '2014', 'and', 'became', 'technology', 'adviser', 'to', 'CEO', 'Satya', 'Nadella', 'and', 'other', 'Microsoft', 'leaders', ',', 'a', 'position', 'he', 'still', 'holds', '.']
+                Output Confidence: 0.99686217 ; Subject: Satya Nadella ; Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'stepped', 'down', 'as', 'chairman', 'of', 'the', 'board', 'of', 'directors', 'in', '2014', 'and', 'became', 'technology', 'adviser', 'to', 'CEO', 'Satya', 'Nadella', 'and', 'other', 'Microsoft', 'leaders', ',', 'a', 'position', 'he', 'still', 'holds', '.']
+                Output Confidence: 0.99686217 ; Subject: Satya Nadella ; Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+        Processed 25 / 42 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Gates', 'and', 'French', 'Gates', 'co', '-', 'chaired', 'the', 'foundation', 'until', '2024', ',', 'when', 'the', 'latter', 'resigned', 'following', 'the', 'couple', "'s", 'divorce', ';', 'it', 'has', 'since', 'been', 'renamed', 'the', 'Gates', 'Foundation', ',', 'with', 'Gates', 'as', 'its', 'sole', 'chair', '.']
+                Output Confidence: 0.97879058 ; Subject: Gates ; Object: Gates
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Gates', 'and', 'French', 'Gates', 'co', '-', 'chaired', 'the', 'foundation', 'until', '2024', ',', 'when', 'the', 'latter', 'resigned', 'following', 'the', 'couple', "'s", 'divorce', ';', 'it', 'has', 'since', 'been', 'renamed', 'the', 'Gates', 'Foundation', ',', 'with', 'Gates', 'as', 'its', 'sole', 'chair', '.']
+                Output Confidence: 0.97879058 ; Subject: Gates ; Object: Gates
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Gates', 'and', 'French', 'Gates', 'co', '-', 'chaired', 'the', 'foundation', 'until', '2024', ',', 'when', 'the', 'latter', 'resigned', 'following', 'the', 'couple', "'s", 'divorce', ';', 'it', 'has', 'since', 'been', 'renamed', 'the', 'Gates', 'Foundation', ',', 'with', 'Gates', 'as', 'its', 'sole', 'chair', '.']
+                Output Confidence: 0.94469649 ; Subject: Gates ; Object: the Gates Foundation
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Gates', 'and', 'French', 'Gates', 'co', '-', 'chaired', 'the', 'foundation', 'until', '2024', ',', 'when', 'the', 'latter', 'resigned', 'following', 'the', 'couple', "'s", 'divorce', ';', 'it', 'has', 'since', 'been', 'renamed', 'the', 'Gates', 'Foundation', ',', 'with', 'Gates', 'as', 'its', 'sole', 'chair', '.']
+                Output Confidence: 0.97487992 ; Subject: Gates ; Object: Gates
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Gates', 'and', 'French', 'Gates', 'co', '-', 'chaired', 'the', 'foundation', 'until', '2024', ',', 'when', 'the', 'latter', 'resigned', 'following', 'the', 'couple', "'s", 'divorce', ';', 'it', 'has', 'since', 'been', 'renamed', 'the', 'Gates', 'Foundation', ',', 'with', 'Gates', 'as', 'its', 'sole', 'chair', '.']
+                Output Confidence: 0.94469649 ; Subject: Gates ; Object: the Gates Foundation
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Gates', 'and', 'French', 'Gates', 'co', '-', 'chaired', 'the', 'foundation', 'until', '2024', ',', 'when', 'the', 'latter', 'resigned', 'following', 'the', 'couple', "'s", 'divorce', ';', 'it', 'has', 'since', 'been', 'renamed', 'the', 'Gates', 'Foundation', ',', 'with', 'Gates', 'as', 'its', 'sole', 'chair', '.']
+                Output Confidence: 0.97487992 ; Subject: Gates ; Object: Gates
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+        Processed 30 / 42 sentences
+        Processed 35 / 42 sentences
+        Processed 40 / 42 sentences
+        Processed 42 / 42 sentences
+
+        Extracted annotations for 10 out of total 42 sentences
+        Relations extracted from this website: 10 (Overall: 4)
+
+URL ( 2 / 10): https://www.instagram.com/thisisbillgates/?hl=en
+        Fetching text from url ...
+        Webpage length (num characters): 0
+        # Sentences extracted = 0
+        Extracted 0 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Annotating the webpage using spacy...
+        Extracted 0 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+
+        Extracted annotations for 0 out of total 0 sentences
+        Relations extracted from this website: 0 (Overall: 4)
+
+URL ( 3 / 10): https://www.linkedin.com/in/williamhgates
+        Fetching text from url ...
+        Webpage length (num characters): 0
+        # Sentences extracted = 0
+        Extracted 0 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Annotating the webpage using spacy...
+        Extracted 0 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+
+        Extracted annotations for 0 out of total 0 sentences
+        Relations extracted from this website: 0 (Overall: 4)
+
+URL ( 4 / 10): https://x.com/billgates
+        Fetching text from url ...
+        Webpage length (num characters): 249
+        # Sentences extracted = 4
+        Extracted 4 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Annotating the webpage using spacy...
+        Extracted 4 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+        Processed 4 / 4 sentences
+
+        Extracted annotations for 0 out of total 4 sentences
+        Relations extracted from this website: 0 (Overall: 4)
+
+URL ( 5 / 10): https://news.microsoft.com/2020/03/13/microsoft-announces-change-to-its-board-of-directors/
+        Fetching text from url ...
+        Webpage length (num characters): 33
+        # Sentences extracted = 1
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Annotating the webpage using spacy...
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+        Processed 1 / 1 sentences
+
+        Extracted annotations for 0 out of total 1 sentences
+        Relations extracted from this website: 0 (Overall: 4)
+
+URL ( 6 / 10): https://www.gatesnotes.com/
+        Fetching text from url ...
+        Webpage length (num characters): 212
+        # Sentences extracted = 1
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Annotating the webpage using spacy...
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+        Processed 1 / 1 sentences
+
+        Extracted annotations for 0 out of total 1 sentences
+        Relations extracted from this website: 0 (Overall: 4)
+
+URL ( 7 / 10): https://www.youtube.com/billgates
+        Fetching text from url ...
+        Webpage length (num characters): 171
+        # Sentences extracted = 1
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Annotating the webpage using spacy...
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+        Processed 1 / 1 sentences
+
+        Extracted annotations for 0 out of total 1 sentences
+        Relations extracted from this website: 0 (Overall: 4)
+
+URL ( 8 / 10): https://news.microsoft.com/2006/06/15/microsoft-announces-plans-for-july-2008-transition-for-bill-gates/
+        Fetching text from url ...
+        Webpage length (num characters): 33
+        # Sentences extracted = 1
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Annotating the webpage using spacy...
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+        Processed 1 / 1 sentences
+
+        Extracted annotations for 0 out of total 1 sentences
+        Relations extracted from this website: 0 (Overall: 4)
+
+URL ( 9 / 10): https://www.microsoft.com/
+        Fetching text from url ...
+        Webpage length (num characters): 1999
+        # Sentences extracted = 13
+        Extracted 13 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Annotating the webpage using spacy...
+        Extracted 13 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+        Processed 5 / 13 sentences
+        Processed 10 / 13 sentences
+        Processed 13 / 13 sentences
+
+        Extracted annotations for 0 out of total 13 sentences
+        Relations extracted from this website: 0 (Overall: 4)
+
+URL ( 10 / 10): https://answers.microsoft.com/en-us/windows/forum/all/a-short-letter-to-bill-gates/59fdd4d0-6330-40da-9e66-fa6c29836454
+        Fetching text from url ...
+        Webpage length (num characters): 11
+        # Sentences extracted = 1
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Annotating the webpage using spacy...
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+        Processed 1 / 1 sentences
+
+        Extracted annotations for 0 out of total 1 sentences
+        Relations extracted from this website: 0 (Overall: 4)
+
+
+=========== Iteration: 1 - Query: Satya Nadella Microsoft ===========
+
+URL ( 1 / 10): https://news.microsoft.com/source/exec/satya-nadella/
+        Fetching text from url ...
+        Webpage length (num characters): 33
+        # Sentences extracted = 1
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Annotating the webpage using spacy...
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+        Processed 1 / 1 sentences
+
+        Extracted annotations for 0 out of total 1 sentences
+        Relations extracted from this website: 0 (Overall: 4)
+
+URL ( 2 / 10): https://en.wikipedia.org/wiki/Satya_Nadella
+        Fetching text from url ...
+        Trimming webpage content from 31577 to 10000 characters
+        Webpage length (num characters): 10000
+        # Sentences extracted = 64
+        Extracted 64 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Annotating the webpage using spacy...
+        Extracted 64 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+        Processed 5 / 64 sentences
+        Processed 10 / 64 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['OccupationBusiness', 'executiveYears', 'active1992', '–', 'presentTitleChairman', 'and', 'CEO', 'of', 'MicrosoftSpouse', '\n', 'Anupama', 'Nadella', '\u200b(m', '.']
+                Output Confidence: 0.99708289 ; Subject: active1992 ; Object: MicrosoftSpouse
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['OccupationBusiness', 'executiveYears', 'active1992', '–', 'presentTitleChairman', 'and', 'CEO', 'of', 'MicrosoftSpouse', '\n', 'Anupama', 'Nadella', '\u200b(m', '.']
+                Output Confidence: 0.99708289 ; Subject: active1992 ; Object: MicrosoftSpouse
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['OccupationBusiness', 'executiveYears', 'active1992', '–', 'presentTitleChairman', 'and', 'CEO', 'of', 'MicrosoftSpouse', '\n', 'Anupama', 'Nadella', '\u200b(m', '.']
+                Output Confidence: 0.99729013 ; Subject: Anupama Nadella ; Object: MicrosoftSpouse
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['OccupationBusiness', 'executiveYears', 'active1992', '–', 'presentTitleChairman', 'and', 'CEO', 'of', 'MicrosoftSpouse', '\n', 'Anupama', 'Nadella', '\u200b(m', '.']
+                Output Confidence: 0.99729013 ; Subject: Anupama Nadella ; Object: MicrosoftSpouse
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['His', 'father', ',', 'Bukkapuram', 'Nadella', 'Yugandhar', ',', 'was', 'an', 'Indian', 'Administrative', 'Service', 'officer', 'of', 'the', '1962', 'batch.[12][13][9', ']']
+                Output Confidence: 0.99658316 ; Subject: Bukkapuram Nadella Yugandhar ; Object: Indian Administrative Service
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['His', 'father', ',', 'Bukkapuram', 'Nadella', 'Yugandhar', ',', 'was', 'an', 'Indian', 'Administrative', 'Service', 'officer', 'of', 'the', '1962', 'batch.[12][13][9', ']']
+                Output Confidence: 0.99658316 ; Subject: Bukkapuram Nadella Yugandhar ; Object: Indian Administrative Service
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+        Processed 15 / 64 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'received', 'an', 'MBA', 'from', 'the', 'University', 'of', 'Chicago', 'Booth', 'School', 'of', 'Business', 'in', '1997.[23][24', ']', '\n', 'Career', '\n', 'Sun', 'Microsystems', '\n', 'Nadella', 'worked', 'at', 'Sun', 'Microsystems', 'as', 'a', 'member', 'of', 'its', 'technology', 'staff', 'before', 'joining', 'Microsoft', 'in', '1992.[25', ']']
+                Output Confidence: 0.99126071 ; Subject: Nadella ; Object: MBA
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'received', 'an', 'MBA', 'from', 'the', 'University', 'of', 'Chicago', 'Booth', 'School', 'of', 'Business', 'in', '1997.[23][24', ']', '\n', 'Career', '\n', 'Sun', 'Microsystems', '\n', 'Nadella', 'worked', 'at', 'Sun', 'Microsystems', 'as', 'a', 'member', 'of', 'its', 'technology', 'staff', 'before', 'joining', 'Microsoft', 'in', '1992.[25', ']']
+                Output Confidence: 0.99666840 ; Subject: Nadella ; Object: the University of Chicago Booth School of Business
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'received', 'an', 'MBA', 'from', 'the', 'University', 'of', 'Chicago', 'Booth', 'School', 'of', 'Business', 'in', '1997.[23][24', ']', '\n', 'Career', '\n', 'Sun', 'Microsystems', '\n', 'Nadella', 'worked', 'at', 'Sun', 'Microsystems', 'as', 'a', 'member', 'of', 'its', 'technology', 'staff', 'before', 'joining', 'Microsoft', 'in', '1992.[25', ']']
+                Output Confidence: 0.99126071 ; Subject: Nadella ; Object: MBA
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'received', 'an', 'MBA', 'from', 'the', 'University', 'of', 'Chicago', 'Booth', 'School', 'of', 'Business', 'in', '1997.[23][24', ']', '\n', 'Career', '\n', 'Sun', 'Microsystems', '\n', 'Nadella', 'worked', 'at', 'Sun', 'Microsystems', 'as', 'a', 'member', 'of', 'its', 'technology', 'staff', 'before', 'joining', 'Microsoft', 'in', '1992.[25', ']']
+                Output Confidence: 0.99666840 ; Subject: Nadella ; Object: the University of Chicago Booth School of Business
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'received', 'an', 'MBA', 'from', 'the', 'University', 'of', 'Chicago', 'Booth', 'School', 'of', 'Business', 'in', '1997.[23][24', ']', '\n', 'Career', '\n', 'Sun', 'Microsystems', '\n', 'Nadella', 'worked', 'at', 'Sun', 'Microsystems', 'as', 'a', 'member', 'of', 'its', 'technology', 'staff', 'before', 'joining', 'Microsoft', 'in', '1992.[25', ']']
+                Output Confidence: 0.99555284 ; Subject: Nadella ; Object: Sun Microsystems
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'received', 'an', 'MBA', 'from', 'the', 'University', 'of', 'Chicago', 'Booth', 'School', 'of', 'Business', 'in', '1997.[23][24', ']', '\n', 'Career', '\n', 'Sun', 'Microsystems', '\n', 'Nadella', 'worked', 'at', 'Sun', 'Microsystems', 'as', 'a', 'member', 'of', 'its', 'technology', 'staff', 'before', 'joining', 'Microsoft', 'in', '1992.[25', ']']
+                Output Confidence: 0.99260944 ; Subject: Nadella ; Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'received', 'an', 'MBA', 'from', 'the', 'University', 'of', 'Chicago', 'Booth', 'School', 'of', 'Business', 'in', '1997.[23][24', ']', '\n', 'Career', '\n', 'Sun', 'Microsystems', '\n', 'Nadella', 'worked', 'at', 'Sun', 'Microsystems', 'as', 'a', 'member', 'of', 'its', 'technology', 'staff', 'before', 'joining', 'Microsoft', 'in', '1992.[25', ']']
+                Output Confidence: 0.99555284 ; Subject: Nadella ; Object: Sun Microsystems
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'received', 'an', 'MBA', 'from', 'the', 'University', 'of', 'Chicago', 'Booth', 'School', 'of', 'Business', 'in', '1997.[23][24', ']', '\n', 'Career', '\n', 'Sun', 'Microsystems', '\n', 'Nadella', 'worked', 'at', 'Sun', 'Microsystems', 'as', 'a', 'member', 'of', 'its', 'technology', 'staff', 'before', 'joining', 'Microsoft', 'in', '1992.[25', ']']
+                Output Confidence: 0.99260944 ; Subject: Nadella ; Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Microsoft', '\n', '1992–2014', '\n', 'Nadella', 'on', 'his', 'first', 'day', 'as', 'CEO', 'of', 'Microsoft', ',', 'with', 'former', 'CEOs', 'Bill', 'Gates', '(', 'left', ')', 'and', 'Steve', 'Ballmer', '(', 'right', ')']
+                Output Confidence: 0.87838894 ; Subject: Nadella ; Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Microsoft', '\n', '1992–2014', '\n', 'Nadella', 'on', 'his', 'first', 'day', 'as', 'CEO', 'of', 'Microsoft', ',', 'with', 'former', 'CEOs', 'Bill', 'Gates', '(', 'left', ')', 'and', 'Steve', 'Ballmer', '(', 'right', ')']
+                Output Confidence: 0.99316674 ; Subject: Bill Gates ; Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Microsoft', '\n', '1992–2014', '\n', 'Nadella', 'on', 'his', 'first', 'day', 'as', 'CEO', 'of', 'Microsoft', ',', 'with', 'former', 'CEOs', 'Bill', 'Gates', '(', 'left', ')', 'and', 'Steve', 'Ballmer', '(', 'right', ')']
+                Output Confidence: 0.87838894 ; Subject: Nadella ; Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Microsoft', '\n', '1992–2014', '\n', 'Nadella', 'on', 'his', 'first', 'day', 'as', 'CEO', 'of', 'Microsoft', ',', 'with', 'former', 'CEOs', 'Bill', 'Gates', '(', 'left', ')', 'and', 'Steve', 'Ballmer', '(', 'right', ')']
+                Output Confidence: 0.97307938 ; Subject: Nadella ; Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Microsoft', '\n', '1992–2014', '\n', 'Nadella', 'on', 'his', 'first', 'day', 'as', 'CEO', 'of', 'Microsoft', ',', 'with', 'former', 'CEOs', 'Bill', 'Gates', '(', 'left', ')', 'and', 'Steve', 'Ballmer', '(', 'right', ')']
+                Output Confidence: 0.97307938 ; Subject: Nadella ; Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Microsoft', '\n', '1992–2014', '\n', 'Nadella', 'on', 'his', 'first', 'day', 'as', 'CEO', 'of', 'Microsoft', ',', 'with', 'former', 'CEOs', 'Bill', 'Gates', '(', 'left', ')', 'and', 'Steve', 'Ballmer', '(', 'right', ')']
+                Output Confidence: 0.99016917 ; Subject: Bill Gates ; Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Microsoft', '\n', '1992–2014', '\n', 'Nadella', 'on', 'his', 'first', 'day', 'as', 'CEO', 'of', 'Microsoft', ',', 'with', 'former', 'CEOs', 'Bill', 'Gates', '(', 'left', ')', 'and', 'Steve', 'Ballmer', '(', 'right', ')']
+                Output Confidence: 0.99316674 ; Subject: Bill Gates ; Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Microsoft', '\n', '1992–2014', '\n', 'Nadella', 'on', 'his', 'first', 'day', 'as', 'CEO', 'of', 'Microsoft', ',', 'with', 'former', 'CEOs', 'Bill', 'Gates', '(', 'left', ')', 'and', 'Steve', 'Ballmer', '(', 'right', ')']
+                Output Confidence: 0.99016917 ; Subject: Bill Gates ; Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+        Processed 20 / 64 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['At', 'Microsoft', ',', 'Nadella', 'has', 'led', 'major', 'projects', 'that', 'included', 'the', 'company', "'s", 'move', 'to', 'cloud', 'computing', 'and', 'the', 'development', 'of', 'one', 'of', 'the', 'largest', 'cloud', 'infrastructures', 'in', 'the', 'world.[26', ']', '\n', 'Nadella', 'worked', 'as', 'the', 'senior', 'vice', '-', 'president', 'of', 'research', 'and', 'development', '(', 'R&D', ')', 'for', 'the', 'Online', 'Services', 'Division', 'and', 'vice', '-', 'president', 'of', 'the', 'Microsoft', 'Business', 'Division.[27', ']']
+                Output Confidence: 0.99405462 ; Subject: Nadella ; Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['At', 'Microsoft', ',', 'Nadella', 'has', 'led', 'major', 'projects', 'that', 'included', 'the', 'company', "'s", 'move', 'to', 'cloud', 'computing', 'and', 'the', 'development', 'of', 'one', 'of', 'the', 'largest', 'cloud', 'infrastructures', 'in', 'the', 'world.[26', ']', '\n', 'Nadella', 'worked', 'as', 'the', 'senior', 'vice', '-', 'president', 'of', 'research', 'and', 'development', '(', 'R&D', ')', 'for', 'the', 'Online', 'Services', 'Division', 'and', 'vice', '-', 'president', 'of', 'the', 'Microsoft', 'Business', 'Division.[27', ']']
+                Output Confidence: 0.99483609 ; Subject: Nadella ; Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['At', 'Microsoft', ',', 'Nadella', 'has', 'led', 'major', 'projects', 'that', 'included', 'the', 'company', "'s", 'move', 'to', 'cloud', 'computing', 'and', 'the', 'development', 'of', 'one', 'of', 'the', 'largest', 'cloud', 'infrastructures', 'in', 'the', 'world.[26', ']', '\n', 'Nadella', 'worked', 'as', 'the', 'senior', 'vice', '-', 'president', 'of', 'research', 'and', 'development', '(', 'R&D', ')', 'for', 'the', 'Online', 'Services', 'Division', 'and', 'vice', '-', 'president', 'of', 'the', 'Microsoft', 'Business', 'Division.[27', ']']
+                Output Confidence: 0.99405462 ; Subject: Nadella ; Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['At', 'Microsoft', ',', 'Nadella', 'has', 'led', 'major', 'projects', 'that', 'included', 'the', 'company', "'s", 'move', 'to', 'cloud', 'computing', 'and', 'the', 'development', 'of', 'one', 'of', 'the', 'largest', 'cloud', 'infrastructures', 'in', 'the', 'world.[26', ']', '\n', 'Nadella', 'worked', 'as', 'the', 'senior', 'vice', '-', 'president', 'of', 'research', 'and', 'development', '(', 'R&D', ')', 'for', 'the', 'Online', 'Services', 'Division', 'and', 'vice', '-', 'president', 'of', 'the', 'Microsoft', 'Business', 'Division.[27', ']']
+                Output Confidence: 0.99203789 ; Subject: Nadella ; Object: the Online Services Division
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['At', 'Microsoft', ',', 'Nadella', 'has', 'led', 'major', 'projects', 'that', 'included', 'the', 'company', "'s", 'move', 'to', 'cloud', 'computing', 'and', 'the', 'development', 'of', 'one', 'of', 'the', 'largest', 'cloud', 'infrastructures', 'in', 'the', 'world.[26', ']', '\n', 'Nadella', 'worked', 'as', 'the', 'senior', 'vice', '-', 'president', 'of', 'research', 'and', 'development', '(', 'R&D', ')', 'for', 'the', 'Online', 'Services', 'Division', 'and', 'vice', '-', 'president', 'of', 'the', 'Microsoft', 'Business', 'Division.[27', ']']
+                Output Confidence: 0.99203789 ; Subject: Nadella ; Object: the Microsoft Business Division.
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['At', 'Microsoft', ',', 'Nadella', 'has', 'led', 'major', 'projects', 'that', 'included', 'the', 'company', "'s", 'move', 'to', 'cloud', 'computing', 'and', 'the', 'development', 'of', 'one', 'of', 'the', 'largest', 'cloud', 'infrastructures', 'in', 'the', 'world.[26', ']', '\n', 'Nadella', 'worked', 'as', 'the', 'senior', 'vice', '-', 'president', 'of', 'research', 'and', 'development', '(', 'R&D', ')', 'for', 'the', 'Online', 'Services', 'Division', 'and', 'vice', '-', 'president', 'of', 'the', 'Microsoft', 'Business', 'Division.[27', ']']
+                Output Confidence: 0.99483609 ; Subject: Nadella ; Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['At', 'Microsoft', ',', 'Nadella', 'has', 'led', 'major', 'projects', 'that', 'included', 'the', 'company', "'s", 'move', 'to', 'cloud', 'computing', 'and', 'the', 'development', 'of', 'one', 'of', 'the', 'largest', 'cloud', 'infrastructures', 'in', 'the', 'world.[26', ']', '\n', 'Nadella', 'worked', 'as', 'the', 'senior', 'vice', '-', 'president', 'of', 'research', 'and', 'development', '(', 'R&D', ')', 'for', 'the', 'Online', 'Services', 'Division', 'and', 'vice', '-', 'president', 'of', 'the', 'Microsoft', 'Business', 'Division.[27', ']']
+                Output Confidence: 0.98814642 ; Subject: Nadella ; Object: the Online Services Division
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['At', 'Microsoft', ',', 'Nadella', 'has', 'led', 'major', 'projects', 'that', 'included', 'the', 'company', "'s", 'move', 'to', 'cloud', 'computing', 'and', 'the', 'development', 'of', 'one', 'of', 'the', 'largest', 'cloud', 'infrastructures', 'in', 'the', 'world.[26', ']', '\n', 'Nadella', 'worked', 'as', 'the', 'senior', 'vice', '-', 'president', 'of', 'research', 'and', 'development', '(', 'R&D', ')', 'for', 'the', 'Online', 'Services', 'Division', 'and', 'vice', '-', 'president', 'of', 'the', 'Microsoft', 'Business', 'Division.[27', ']']
+                Output Confidence: 0.98814642 ; Subject: Nadella ; Object: the Microsoft Business Division.
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['At', 'Microsoft', ',', 'Nadella', 'has', 'led', 'major', 'projects', 'that', 'included', 'the', 'company', "'s", 'move', 'to', 'cloud', 'computing', 'and', 'the', 'development', 'of', 'one', 'of', 'the', 'largest', 'cloud', 'infrastructures', 'in', 'the', 'world.[26', ']', '\n', 'Nadella', 'worked', 'as', 'the', 'senior', 'vice', '-', 'president', 'of', 'research', 'and', 'development', '(', 'R&D', ')', 'for', 'the', 'Online', 'Services', 'Division', 'and', 'vice', '-', 'president', 'of', 'the', 'Microsoft', 'Business', 'Division.[27', ']']
+                Output Confidence: 0.99203789 ; Subject: Nadella ; Object: the Online Services Division
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['At', 'Microsoft', ',', 'Nadella', 'has', 'led', 'major', 'projects', 'that', 'included', 'the', 'company', "'s", 'move', 'to', 'cloud', 'computing', 'and', 'the', 'development', 'of', 'one', 'of', 'the', 'largest', 'cloud', 'infrastructures', 'in', 'the', 'world.[26', ']', '\n', 'Nadella', 'worked', 'as', 'the', 'senior', 'vice', '-', 'president', 'of', 'research', 'and', 'development', '(', 'R&D', ')', 'for', 'the', 'Online', 'Services', 'Division', 'and', 'vice', '-', 'president', 'of', 'the', 'Microsoft', 'Business', 'Division.[27', ']']
+                Output Confidence: 0.98814642 ; Subject: Nadella ; Object: the Online Services Division
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['At', 'Microsoft', ',', 'Nadella', 'has', 'led', 'major', 'projects', 'that', 'included', 'the', 'company', "'s", 'move', 'to', 'cloud', 'computing', 'and', 'the', 'development', 'of', 'one', 'of', 'the', 'largest', 'cloud', 'infrastructures', 'in', 'the', 'world.[26', ']', '\n', 'Nadella', 'worked', 'as', 'the', 'senior', 'vice', '-', 'president', 'of', 'research', 'and', 'development', '(', 'R&D', ')', 'for', 'the', 'Online', 'Services', 'Division', 'and', 'vice', '-', 'president', 'of', 'the', 'Microsoft', 'Business', 'Division.[27', ']']
+                Output Confidence: 0.99203789 ; Subject: Nadella ; Object: the Microsoft Business Division.
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['At', 'Microsoft', ',', 'Nadella', 'has', 'led', 'major', 'projects', 'that', 'included', 'the', 'company', "'s", 'move', 'to', 'cloud', 'computing', 'and', 'the', 'development', 'of', 'one', 'of', 'the', 'largest', 'cloud', 'infrastructures', 'in', 'the', 'world.[26', ']', '\n', 'Nadella', 'worked', 'as', 'the', 'senior', 'vice', '-', 'president', 'of', 'research', 'and', 'development', '(', 'R&D', ')', 'for', 'the', 'Online', 'Services', 'Division', 'and', 'vice', '-', 'president', 'of', 'the', 'Microsoft', 'Business', 'Division.[27', ']']
+                Output Confidence: 0.98814642 ; Subject: Nadella ; Object: the Microsoft Business Division.
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+        Processed 25 / 64 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Including', 'stock', 'bonuses', ',', 'the', 'total', 'compensation', 'stood', 'at', 'around', '$', '7.6', 'million.[31', ']', '\n', 'Previous', 'positions', 'held', 'by', 'Nadella', 'include:[32', ']', '\n', 'President', 'of', 'the', 'Server', '&', 'Tools', 'Division', '(', '9', 'February', '2011', '–', 'February', '2014', ')']
+                Output Confidence: 0.99318719 ; Subject: Nadella ; Object: the Server & Tools Division
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Including', 'stock', 'bonuses', ',', 'the', 'total', 'compensation', 'stood', 'at', 'around', '$', '7.6', 'million.[31', ']', '\n', 'Previous', 'positions', 'held', 'by', 'Nadella', 'include:[32', ']', '\n', 'President', 'of', 'the', 'Server', '&', 'Tools', 'Division', '(', '9', 'February', '2011', '–', 'February', '2014', ')']
+                Output Confidence: 0.99318719 ; Subject: Nadella ; Object: the Server & Tools Division
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+        Processed 30 / 64 sentences
+        Processed 35 / 64 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['On', '26', 'October', '2018', ',', 'Microsoft', 'acquired', 'GitHub', 'for', 'US$', '7.5', 'billion.[53', ']', '\n', 'As', 'of', 'November', '2023', ',', 'Microsoft', 'stock', 'had', 'increased', 'nearly', 'tenfold', 'since', 'Nadella', 'became', 'CEO', 'in', '2014', ',', 'with', 'a', '27', '%', 'annual', 'growth', 'rate', ',', 'ending', 'a', '14', '-', 'year', 'period', 'of', 'near', 'zero', 'growth.[54][55', ']']
+                Output Confidence: 0.99787796 ; Subject: Nadella ; Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['On', '26', 'October', '2018', ',', 'Microsoft', 'acquired', 'GitHub', 'for', 'US$', '7.5', 'billion.[53', ']', '\n', 'As', 'of', 'November', '2023', ',', 'Microsoft', 'stock', 'had', 'increased', 'nearly', 'tenfold', 'since', 'Nadella', 'became', 'CEO', 'in', '2014', ',', 'with', 'a', '27', '%', 'annual', 'growth', 'rate', ',', 'ending', 'a', '14', '-', 'year', 'period', 'of', 'near', 'zero', 'growth.[54][55', ']']
+                Output Confidence: 0.99682271 ; Subject: Nadella ; Object: GitHub
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['On', '26', 'October', '2018', ',', 'Microsoft', 'acquired', 'GitHub', 'for', 'US$', '7.5', 'billion.[53', ']', '\n', 'As', 'of', 'November', '2023', ',', 'Microsoft', 'stock', 'had', 'increased', 'nearly', 'tenfold', 'since', 'Nadella', 'became', 'CEO', 'in', '2014', ',', 'with', 'a', '27', '%', 'annual', 'growth', 'rate', ',', 'ending', 'a', '14', '-', 'year', 'period', 'of', 'near', 'zero', 'growth.[54][55', ']']
+                Output Confidence: 0.99745613 ; Subject: Nadella ; Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['On', '26', 'October', '2018', ',', 'Microsoft', 'acquired', 'GitHub', 'for', 'US$', '7.5', 'billion.[53', ']', '\n', 'As', 'of', 'November', '2023', ',', 'Microsoft', 'stock', 'had', 'increased', 'nearly', 'tenfold', 'since', 'Nadella', 'became', 'CEO', 'in', '2014', ',', 'with', 'a', '27', '%', 'annual', 'growth', 'rate', ',', 'ending', 'a', '14', '-', 'year', 'period', 'of', 'near', 'zero', 'growth.[54][55', ']']
+                Output Confidence: 0.99787796 ; Subject: Nadella ; Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['On', '26', 'October', '2018', ',', 'Microsoft', 'acquired', 'GitHub', 'for', 'US$', '7.5', 'billion.[53', ']', '\n', 'As', 'of', 'November', '2023', ',', 'Microsoft', 'stock', 'had', 'increased', 'nearly', 'tenfold', 'since', 'Nadella', 'became', 'CEO', 'in', '2014', ',', 'with', 'a', '27', '%', 'annual', 'growth', 'rate', ',', 'ending', 'a', '14', '-', 'year', 'period', 'of', 'near', 'zero', 'growth.[54][55', ']']
+                Output Confidence: 0.99682271 ; Subject: Nadella ; Object: GitHub
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['On', '26', 'October', '2018', ',', 'Microsoft', 'acquired', 'GitHub', 'for', 'US$', '7.5', 'billion.[53', ']', '\n', 'As', 'of', 'November', '2023', ',', 'Microsoft', 'stock', 'had', 'increased', 'nearly', 'tenfold', 'since', 'Nadella', 'became', 'CEO', 'in', '2014', ',', 'with', 'a', '27', '%', 'annual', 'growth', 'rate', ',', 'ending', 'a', '14', '-', 'year', 'period', 'of', 'near', 'zero', 'growth.[54][55', ']']
+                Output Confidence: 0.99745613 ; Subject: Nadella ; Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+        Processed 40 / 64 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['In', '2022', ',', 'the', 'Government', 'of', 'India', 'awarded', 'Nadella', 'the', 'Padma', 'Bhushan', ',', 'the', 'third', 'highest', 'civilian', 'award', 'in', 'India.[68', ']', '\n', 'Nadella', 'was', 'awarded', 'an', 'honorary', 'Ph.D.', 'from', 'the', 'Georgia', 'Institute', 'of', 'Technology', 'in', 'January', '2024.[69', ']', '\n', 'Personal', 'life']
+                Output Confidence: 0.87193793 ; Subject: Nadella ; Object: the Government of India
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['In', '2022', ',', 'the', 'Government', 'of', 'India', 'awarded', 'Nadella', 'the', 'Padma', 'Bhushan', ',', 'the', 'third', 'highest', 'civilian', 'award', 'in', 'India.[68', ']', '\n', 'Nadella', 'was', 'awarded', 'an', 'honorary', 'Ph.D.', 'from', 'the', 'Georgia', 'Institute', 'of', 'Technology', 'in', 'January', '2024.[69', ']', '\n', 'Personal', 'life']
+                Output Confidence: 0.87193793 ; Subject: Nadella ; Object: the Government of India
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+        Processed 45 / 64 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'credits', 'cricket', 'for', 'improving', 'his', 'leadership', 'skills.[80', ']', '\n', 'Nadella', 'and', 'his', 'wife', 'Anupama', 'are', 'part', 'of', 'the', 'ownership', 'group', 'of', 'Seattle', 'Sounders', 'FC', ',', 'a', 'Major', 'League', 'Soccer', 'club.[81', ']']
+                Output Confidence: 0.98846567 ; Subject: Nadella ; Object: Seattle Sounders FC
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'credits', 'cricket', 'for', 'improving', 'his', 'leadership', 'skills.[80', ']', '\n', 'Nadella', 'and', 'his', 'wife', 'Anupama', 'are', 'part', 'of', 'the', 'ownership', 'group', 'of', 'Seattle', 'Sounders', 'FC', ',', 'a', 'Major', 'League', 'Soccer', 'club.[81', ']']
+                Output Confidence: 0.97802007 ; Subject: Nadella ; Object: Major League Soccer
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'credits', 'cricket', 'for', 'improving', 'his', 'leadership', 'skills.[80', ']', '\n', 'Nadella', 'and', 'his', 'wife', 'Anupama', 'are', 'part', 'of', 'the', 'ownership', 'group', 'of', 'Seattle', 'Sounders', 'FC', ',', 'a', 'Major', 'League', 'Soccer', 'club.[81', ']']
+                Output Confidence: 0.98864603 ; Subject: Anupama ; Object: Seattle Sounders FC
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'credits', 'cricket', 'for', 'improving', 'his', 'leadership', 'skills.[80', ']', '\n', 'Nadella', 'and', 'his', 'wife', 'Anupama', 'are', 'part', 'of', 'the', 'ownership', 'group', 'of', 'Seattle', 'Sounders', 'FC', ',', 'a', 'Major', 'League', 'Soccer', 'club.[81', ']']
+                Output Confidence: 0.86277062 ; Subject: Anupama ; Object: Major League Soccer
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'credits', 'cricket', 'for', 'improving', 'his', 'leadership', 'skills.[80', ']', '\n', 'Nadella', 'and', 'his', 'wife', 'Anupama', 'are', 'part', 'of', 'the', 'ownership', 'group', 'of', 'Seattle', 'Sounders', 'FC', ',', 'a', 'Major', 'League', 'Soccer', 'club.[81', ']']
+                Output Confidence: 0.98846567 ; Subject: Nadella ; Object: Seattle Sounders FC
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'credits', 'cricket', 'for', 'improving', 'his', 'leadership', 'skills.[80', ']', '\n', 'Nadella', 'and', 'his', 'wife', 'Anupama', 'are', 'part', 'of', 'the', 'ownership', 'group', 'of', 'Seattle', 'Sounders', 'FC', ',', 'a', 'Major', 'League', 'Soccer', 'club.[81', ']']
+                Output Confidence: 0.98864603 ; Subject: Anupama ; Object: Seattle Sounders FC
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'credits', 'cricket', 'for', 'improving', 'his', 'leadership', 'skills.[80', ']', '\n', 'Nadella', 'and', 'his', 'wife', 'Anupama', 'are', 'part', 'of', 'the', 'ownership', 'group', 'of', 'Seattle', 'Sounders', 'FC', ',', 'a', 'Major', 'League', 'Soccer', 'club.[81', ']']
+                Output Confidence: 0.97802007 ; Subject: Nadella ; Object: Major League Soccer
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'credits', 'cricket', 'for', 'improving', 'his', 'leadership', 'skills.[80', ']', '\n', 'Nadella', 'and', 'his', 'wife', 'Anupama', 'are', 'part', 'of', 'the', 'ownership', 'group', 'of', 'Seattle', 'Sounders', 'FC', ',', 'a', 'Major', 'League', 'Soccer', 'club.[81', ']']
+                Output Confidence: 0.86277062 ; Subject: Anupama ; Object: Major League Soccer
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+        Processed 50 / 64 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['"', 'Microsoft', 'CEO', 'Satya', 'Nadella', 'Once', 'Gave', 'Up', 'His', 'Green', 'Card', 'For', 'Love', '"', '.']
+                Output Confidence: 0.78464216 ; Subject: Satya Nadella ; Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['"', 'Microsoft', 'CEO', 'Satya', 'Nadella', 'Once', 'Gave', 'Up', 'His', 'Green', 'Card', 'For', 'Love', '"', '.']
+                Output Confidence: 0.78464216 ; Subject: Satya Nadella ; Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+        Processed 55 / 64 sentences
+        Processed 60 / 64 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['"', 'Microsoft', 'Board', 'names', 'Satya', 'Nadella', 'as', 'CEO', '"', '.']
+                Output Confidence: 0.93951613 ; Subject: Satya Nadella ; Object: Microsoft Board
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['"', 'Microsoft', 'Board', 'names', 'Satya', 'Nadella', 'as', 'CEO', '"', '.']
+                Output Confidence: 0.93951613 ; Subject: Satya Nadella ; Object: Microsoft Board
+                Duplicate with lower confidence than existing record. Ignoring.
+                ==========
+        Processed 64 / 64 sentences
+
+        Extracted annotations for 56 out of total 64 sentences
+        Relations extracted from this website: 56 (Overall: 22)
+
+================== ALL RELATIONS for Work_For =================
+Confidence: 0.99787796          | Subject: Nadella              | Object: Microsoft
+Confidence: 0.99729013          | Subject: Anupama Nadella              | Object: MicrosoftSpouse
+Confidence: 0.99708289          | Subject: active1992           | Object: MicrosoftSpouse
+Confidence: 0.99686217          | Subject: Satya Nadella                | Object: Microsoft
+Confidence: 0.99682271          | Subject: Nadella              | Object: GitHub
+Confidence: 0.99666840          | Subject: Nadella              | Object: the University of Chicago Booth School of Business
+Confidence: 0.99658316          | Subject: Bukkapuram Nadella Yugandhar                 | Object: Indian Administrative Service
+Confidence: 0.99555284          | Subject: Nadella              | Object: Sun Microsystems
+Confidence: 0.99318719          | Subject: Nadella              | Object: the Server & Tools Division
+Confidence: 0.99316674          | Subject: Bill Gates           | Object: Microsoft
+Total # of iterations = 2

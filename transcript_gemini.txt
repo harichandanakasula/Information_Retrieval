@@ -1,0 +1,272 @@
+python3 main.py gemini  AIzaSyBpks-9zriolxJeAIYWhIN9bkRxwBSBCHE 264b06b728e3947a7 AIzaSyBO5WY7_4iXLj4HXyBTTRKM2Kc_ZBdrcvk  2  0.0  "bi
+ll gates microsoft" 10
+____
+Parameters:
+Client key      = AIzaSyBpks-9zriolxJeAIYWhIN9bkRxwBSBCHE
+Engine key      = 264b06b728e3947a7
+Gemini key      = AIzaSyBO5WY7_4iXLj4HXyBTTRKM2Kc_ZBdrcvk
+Method          = gemini
+Relation        = Work_For
+Threshold       = 0.0
+Query           = bill gates microsoft
+# of Tuples     = 10
+
+=========== Using Gemini for Relation Extraction ===========
+=========== Using Gemini for Relation Extraction ===========
+
+=========== Iteration: 0 - Query: bill gates microsoft ===========
+
+
+URL ( 1 / 10): https://en.wikipedia.org/wiki/Bill_Gates
+        Fetching text from url ...
+        Trimming webpage content from 147508 to 10000 characters
+        Webpage length (num characters): 10000
+        Annotating the webpage using spacy...
+        Extracted 37 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+                === Extracted Relation ===
+                Sentence: fileSpecial pages                    Search            Search                       Appearance                 Donate  Create account  Log in         Personal tools      Donate Create account Log in                      Pages for logged out editors learn more    ContributionsTalk                             Conte
+                Subject: Bill Gates ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+
+        Processed 5 / 37 sentences
+        Processed 10 / 37 sentences
+
+                === Extracted Relation ===
+                Sentence: A pioneer of the microcomputer revolution of the 1970s and 1980s, he co-founded the software company Microsoft in 1975 with his childhood friend Paul Allen.
+                Subject: Paul Allen ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+
+
+                === Extracted Relation ===
+                Sentence: A pioneer of the microcomputer revolution of the 1970s and 1980s, he co-founded the software company Microsoft in 1975 with his childhood friend Paul Allen.
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+
+        Processed 15 / 37 sentences
+        Processed 20 / 37 sentences
+
+                === Extracted Relation ===
+                Sentence: Over time, he has reduced his role at Microsoft to focus on his philanthropic work with the Bill & Melinda Gates Foundation, the world's largest private charitable organization, which he and his then-wife Melinda French Gates established in 2000.
+                Subject: Bill Gates ; Object: Bill & Melinda Gates Foundation ;
+                Adding to set of extracted relations
+                ==========
+
+
+                === Extracted Relation ===
+                Sentence: Over time, he has reduced his role at Microsoft to focus on his philanthropic work with the Bill & Melinda Gates Foundation, the world's largest private charitable organization, which he and his then-wife Melinda French Gates established in 2000.
+                Subject: Melinda French Gates ; Object: Bill & Melinda Gates Foundation ;
+                Adding to set of extracted relations
+                ==========
+
+        Processed 25 / 37 sentences
+
+                === Extracted Relation ===
+                Sentence: Gates and French Gates co-chaired the foundation until 2024, when the latter resigned following the couple's divorce; it has since been renamed the Gates Foundation, with Gates as its sole chair.
+                Subject: Gates ; Object: Gates Foundation ;
+                Adding to set of extracted relations
+                ==========
+
+
+                === Extracted Relation ===
+                Sentence: Gates and French Gates co-chaired the foundation until 2024, when the latter resigned following the couple's divorce; it has since been renamed the Gates Foundation, with Gates as its sole chair.
+                Subject: French Gates ; Object: the foundation ;
+                Adding to set of extracted relations
+                ==========
+
+        Processed 30 / 37 sentences
+
+                === Extracted Relation ===
+                Sentence: Gates's maternal grandfather J. W. Maxwell was a national bank president.
+                Subject: J. W. Maxwell ; Object: national bank ;
+                Adding to set of extracted relations
+                ==========
+
+        Processed 35 / 37 sentences
+        Processed 37 / 37 sentences
+
+        Extracted annotations for 7 out of total 37 sentences
+        Relations extracted from this website: 7 (Overall: 7)
+
+URL ( 2 / 10): https://www.instagram.com/thisisbillgates/?hl=en
+        Fetching text from url ...
+        Webpage length (num characters): 0
+        Annotating the webpage using spacy...
+        Extracted 0 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+        Extracted annotations for 0 out of total 0 sentences
+        Relations extracted from this website: 0 (Overall: 7)
+
+URL ( 3 / 10): https://www.linkedin.com/in/williamhgates
+        Fetching text from url ...
+        Webpage length (num characters): 3
+        Annotating the webpage using spacy...
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 1 / 1 sentences
+
+        Extracted annotations for 0 out of total 1 sentences
+        Relations extracted from this website: 0 (Overall: 7)
+
+URL ( 4 / 10): https://x.com/billgates
+        Fetching text from url ...
+        Webpage length (num characters): 289
+        Annotating the webpage using spacy...
+        Extracted 4 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 4 / 4 sentences
+
+        Extracted annotations for 0 out of total 4 sentences
+        Relations extracted from this website: 0 (Overall: 7)
+
+URL ( 5 / 10): https://news.microsoft.com/2020/03/13/microsoft-announces-change-to-its-board-of-directors/
+        Fetching text from url ...
+        Webpage length (num characters): 38
+        Annotating the webpage using spacy...
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 1 / 1 sentences
+
+        Extracted annotations for 0 out of total 1 sentences
+        Relations extracted from this website: 0 (Overall: 7)
+
+URL ( 6 / 10): https://www.gatesnotes.com/
+        Fetching text from url ...
+        Webpage length (num characters): 219
+        Annotating the webpage using spacy...
+        Extracted 2 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 2 / 2 sentences
+
+        Extracted annotations for 0 out of total 2 sentences
+        Relations extracted from this website: 0 (Overall: 7)
+
+URL ( 7 / 10): https://www.youtube.com/billgates
+        Fetching text from url ...
+        Webpage length (num characters): 171
+        Annotating the webpage using spacy...
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 1 / 1 sentences
+
+        Extracted annotations for 0 out of total 1 sentences
+        Relations extracted from this website: 0 (Overall: 7)
+
+URL ( 8 / 10): https://news.microsoft.com/2006/06/15/microsoft-announces-plans-for-july-2008-transition-for-bill-gates/
+        Fetching text from url ...
+        Webpage length (num characters): 38
+        Annotating the webpage using spacy...
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 1 / 1 sentences
+
+        Extracted annotations for 0 out of total 1 sentences
+        Relations extracted from this website: 0 (Overall: 7)
+
+URL ( 9 / 10): https://www.microsoft.com/
+        Fetching text from url ...
+        Trimming webpage content from 15555 to 10000 characters
+        Webpage length (num characters): 10000
+        Annotating the webpage using spacy...
+        Extracted 4 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 4 / 4 sentences
+
+        Extracted annotations for 0 out of total 4 sentences
+        Relations extracted from this website: 0 (Overall: 7)
+
+URL ( 10 / 10): https://answers.microsoft.com/en-us/windows/forum/all/a-short-letter-to-bill-gates/59fdd4d0-6330-40da-9e66-fa6c29836454
+        Fetching text from url ...
+        Webpage length (num characters): 35
+        Annotating the webpage using spacy...
+        Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 1 / 1 sentences
+
+        Extracted annotations for 0 out of total 1 sentences
+        Relations extracted from this website: 0 (Overall: 7)
+
+=========== Iteration: 1 - Query: J. W. Maxwell national bank ===========
+
+
+URL ( 1 / 10): https://en.wikipedia.org/wiki/Mary_Maxwell_Gates
+        Fetching text from url ...
+        Webpage length (num characters): 9544
+        Annotating the webpage using spacy...
+        Extracted 85 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+        Processed 5 / 85 sentences
+        Processed 10 / 85 sentences
+        Processed 15 / 85 sentences
+
+                === Extracted Relation ===
+                Sentence: In 1975, Governor Daniel J. Evans appointed Gates to the board of regents for her alma mater, where she led the movement on the board to divest the University of Washington's holdings in South Africa to protest apartheid.
+                Subject: Gates ; Object: board of regents ;
+                Adding to set of extracted relations
+                ==========
+
+
+                === Extracted Relation ===
+                Sentence: In 1975, Governor Daniel J. Evans appointed Gates to the board of regents for her alma mater, where she led the movement on the board to divest the University of Washington's holdings in South Africa to protest apartheid.
+                Subject: Gates ; Object: University of Washington ;
+                Adding to set of extracted relations
+                ==========
+
+        Processed 20 / 85 sentences
+
+                === Extracted Relation ===
+                Sentence: In 1980, she discussed her son's company with John Opel, a fellow committee member, and the chairman of International Business Machines Corporation (IBM).
+                Subject: John Opel ; Object: International Business Machines Corporation (IBM) ;
+                Adding to set of extracted relations
+                ==========
+
+
+                === Extracted Relation ===
+                Sentence: Opel, by some accounts, mentioned Mrs. Gates to other IBM executives.
+                Subject: Opel ; Object: IBM ;
+                Adding to set of extracted relations
+                ==========
+
+        Processed 25 / 85 sentences
+
+                === Extracted Relation ===
+                Sentence: "Mary Gates dies – cancer claims longtime Seattle civic leader and mother Of Microsoft founder Bill Gates".
+                Subject: Mary Gates ; Object: Seattle civic leader ;
+                Adding to set of extracted relations
+                ==========
+
+
+                === Extracted Relation ===
+                Sentence: "Mary Gates dies – cancer claims longtime Seattle civic leader and mother Of Microsoft founder Bill Gates".
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+
+        Processed 30 / 85 sentences
+
+                === Extracted Relation ===
+                Sentence: a b c "Mary Gates, 64; helped her son start Microsoft".
+                Subject: Mary Gates ; Object: Microsoft ;
+                Adding to set of extracted relations
+                ==========
+
+        Processed 35 / 85 sentences
+        Processed 40 / 85 sentences
+        Processed 45 / 85 sentences
+        Processed 50 / 85 sentences
+        Processed 55 / 85 sentences
+        Processed 60 / 85 sentences
+        Processed 65 / 85 sentences
+        Processed 70 / 85 sentences
+        Processed 75 / 85 sentences
+        Processed 80 / 85 sentences
+        Processed 85 / 85 sentences
+
+        Extracted annotations for 6 out of total 85 sentences
+        Relations extracted from this website: 6 (Overall: 13)
+
+================== ALL RELATIONS for Work_For (13) ==================
+Subject: Bill Gates             | Object: Microsoft
+Subject: Paul Allen             | Object: Microsoft
+Subject: Bill Gates             | Object: Bill & Melinda Gates Foundation
+Subject: Melinda French Gates           | Object: Bill & Melinda Gates Foundation
+Subject: Gates          | Object: Gates Foundation
+Subject: French Gates           | Object: the foundation
+Subject: J. W. Maxwell          | Object: national bank
+Subject: Gates          | Object: board of regents
+Subject: Gates          | Object: University of Washington
+Subject: John Opel              | Object: International Business Machines Corporation (IBM)
