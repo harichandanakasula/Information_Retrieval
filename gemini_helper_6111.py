@@ -45,7 +45,7 @@ extracted:"""
         temperature=0.2,
         top_p=1,
         top_k=32,
-        gemini_key="AIzaSyBO5WY7_4iXLj4HXyBTTRKM2Kc_ZBdrcvk"  
+        gemini_key="YOUR_GEMINI_KEY"  
     )
     print(response_text)
 
