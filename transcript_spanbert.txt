@@ -1,6 +1,4 @@
-python3 main.py spanbert  AIzaSyBpks-9z
-riolxJeAIYWhIN9bkRxwBSBCHE 264b06b728e3947a7 AIzaSyBO5WY7_4iXLj4HXyBTTRKM2Kc_ZBdrcvk  2  0.7  "
-bill gates microsoft" 10
+python3 main.py spanbert <GOOGLE_API_KEY> <SEARCH_ENGINE_ID> <GEMINI_KEY>  2  0.7  "bill gates microsoft" 10
 ____
 Parameters:
 Client key      = AIzaSyBpks-9zriolxJeAIYWhIN9bkRxwBSBCHE
