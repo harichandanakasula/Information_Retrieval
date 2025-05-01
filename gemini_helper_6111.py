@@ -3,7 +3,7 @@
 import google.generativeai as genai
 
 
-GEMINI_API_KEY = "AIzaSyBO5WY7_4iXLj4HXyBTTRKM2Kc_ZBdrcvk"  
+GEMINI_API_KEY = "YOUR_GEMINI_KEY"  
 
 def get_gemini_completion(
     prompt,
